@@ -1,0 +1,4 @@
+openai
+sqlalchemy
+cx_Oracle
+snowflake-connector-python
