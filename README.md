@@ -13,6 +13,28 @@ Connect to Oracle, Snowflake, PostgreSQL, and more. Use natural language to gene
 - 🛡 Safe and customizable
 - 🧪 Easy to test and extend
 
+🛠 Supported Databases
+Oracle
+
+Snowflake
+
+PostgreSQL
+
+MySQL
+
+SQL Server
+
+SQLite
+
+🔐 Security
+OpenAI key is user-provided
+
+Input sanitization included
+
+Optional read-only mode
+
+🤝 Contributing
+Pull requests welcome! Please include tests and examples.
 ---
 
 ## 📦 Installation
