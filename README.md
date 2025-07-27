@@ -17,5 +17,23 @@ Connect to Oracle, Snowflake, PostgreSQL, and more. Use natural language to gene
 
 ## 📦 Installation
 
+
 ```bash
 pip install -r requirements.txt
+----------------------------------------------------------------------------------------------
+
+from openquerybuilder.main import QueryBuilder
+
+qb = QueryBuilder(
+    db_configs=[
+        {"type": "oracle", "connection_string": "oracle+cx_oracle://user:pass@host:port/db"},
+        {"type": "snowflake", "connection_string": "snowflake://user:pass@account/db/schema"}
+    ],
+    openai_api_key="your-openai-key"
+)
+
+qb.load_schema()
+query = qb.generate_query("Show top 5 products by revenue")
+print(query)
+--------------------------------------------------------------------
+
